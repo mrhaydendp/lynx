@@ -7,9 +7,11 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-env = "production"
-title = "Hayden Plumley | Lynx"
-description = "My social links, powered by Hugo & Lynx"
+  env = "production"
+  title = "Hayden Plumley | Lynx"
+  description = "My social links, powered by Hugo & Lynx"
+  keywords = [ "Linktree", "Lynx", "About" ]
+  author = "Hayden Plumley"
 
 [author]
   image = "https://avatars.githubusercontent.com/u/29285782?v=4"
