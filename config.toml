@@ -1,0 +1,25 @@
+baseURL = "https://mrhaydendp.github.io/lynx"
+languageCode = "en-us"
+title = "Hayden Plumley | Lynx"
+theme = "Lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  image = "https://avatars.githubusercontent.com/u/29285782?v=4"
+  name = "Hayden Plumley"
+  headline = "Stingray Survivor | Don't brake for bees | Software Developer | Linux User | Android Enthusiast"
+  links = [
+    { github = "https://github.com/mrhaydendp" },
+    { twitter = "https://twitter.com/mrhaydendp" },
+    { email = "mailto:mrhaydendp@gmail.com" },
+    { link = "https://mrhaydendp.github.io" }
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
