@@ -1,11 +1,15 @@
 baseURL = "https://mrhaydendp.github.io/mrhaydendp-lynx"
 languageCode = "en-us"
 title = "Hayden Plumley | Lynx"
-description = "My social links, powered by Hugo & Lynx"
 theme = "Lynx"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
+
+[params]
+env = "production"
+title = "Hayden Plumley | Lynx"
+description = "My social links, powered by Hugo & Lynx"
 
 [author]
   image = "https://avatars.githubusercontent.com/u/29285782?v=4"
