@@ -1,6 +1,7 @@
 baseURL = "https://mrhaydendp.github.io/mrhaydendp-lynx"
 languageCode = "en-us"
 title = "Hayden Plumley | Lynx"
+description = "My social links, powered by Hugo & Lynx"
 theme = "Lynx"
 
 enableEmoji = true
