@@ -1,0 +1,38 @@
+# Site Config
+baseURL: "https://lynx.mrhaydendp.com"
+languageCode: "en-us"
+title: "Hayden Plumley | Lynx"
+theme: "Lynx"
+
+params:
+    env: production
+    title: "Hayden Plumley | Lynx"
+    author: Hayden Plumley
+    description: "My social links, powered by Hugo & Lynx"
+    keywords:
+        - Linktree
+        - Lynx
+        - About
+
+# Theme Config
+author:
+    image: "https://avatars.githubusercontent.com/u/29285782?v=4"
+    name: Hayden Plumley
+    headline: "Stingray Survivor | Don't brake for bees | Software Developer | Linux User | Android Enthusiast"
+    links:
+        - github: "https://github.com/mrhaydendp"
+        - twitter: "https://twitter.com/mrhaydendp"
+        - email: "mailto:mrhaydendp@gmail.com"
+        - link: "https://blog.mrhaydendp.com"
+
+enableEmoji: true
+disableKinds:
+    - taxonomy
+    - term
+
+markup:
+    highlight:
+        noClasses: false
+    goldmark:
+        renderer:
+            unsafe: true
