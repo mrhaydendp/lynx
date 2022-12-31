@@ -16,7 +16,7 @@ params:
 
 # Theme Config
 author:
-    image: "https://avatars.githubusercontent.com/u/29285782?v=4"
+    image: avatar.webp
     name: Hayden Plumley
     headline: "Stingray Survivor | Don't brake for bees | Software Developer | Linux User | Android Enthusiast"
     links:
