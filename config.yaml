@@ -8,23 +8,22 @@ enableRobotsTXT: true
 outputs:
     home: ["HTML", "JSON"]
 
+# Theme Config
 params:
     env: production
     title: "Hayden Plumley | Lynx"
     author: Hayden Plumley
     description: "My social links, powered by Hugo & Lynx"
     keywords: ["Lynx", "Linktree", "About"]
-
-# Theme Config
-author:
-    image: avatar.webp
-    name: Hayden Plumley
-    headline: "Stingray Survivor | Don't brake for bees | Software Developer | Linux User | Android Enthusiast"
-    links:
-        - github: "https://github.com/mrhaydendp"
-        - x: "https://twitter.com/mrhaydendp"
-        - email: "mailto:mrhaydendp@gmail.com"
-        - link: "https://blog.mrhaydendp.com"
+    author:
+        image: avatar.webp
+        name: Hayden Plumley
+        headline: "Stingray Survivor | Don't brake for bees | Software Developer | Linux User | Android Enthusiast"
+        links:
+            - github: "https://github.com/mrhaydendp"
+            - x: "https://twitter.com/mrhaydendp"
+            - email: "mailto:mrhaydendp@gmail.com"
+            - link: "https://blog.mrhaydendp.com"
 
 enableEmoji: true
 disableKinds:
