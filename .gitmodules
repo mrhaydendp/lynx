@@ -1,3 +1,4 @@
 [submodule "themes/Lynx"]
 	path = themes/Lynx
 	url = https://github.com/jpanther/lynx.git
+        branch = dev
