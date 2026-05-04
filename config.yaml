@@ -1,38 +1,42 @@
-# Site Config
 baseURL: "https://lynx.mrhaydendp.com"
-languageCode: "en-us"
+locale: en-us
 title: "Hayden Plumley | Lynx"
-theme: "Lynx"
+theme: Lynx
 
 enableRobotsTXT: true
-outputs:
-    home: ["HTML"]
-
-# Theme Config
-params:
-    env: production
-    title: "Hayden Plumley | Lynx"
-    author: Hayden Plumley
-    description: "My social links, powered by Hugo & Lynx"
-    keywords: ["Lynx", "Linktree", "About"]
-    author:
-        image: avatar.webp
-        name: Hayden Plumley
-        headline: "Stingray Survivor | Don't brake for bees | Software Developer | Linux User | Android Enthusiast"
-        links:
-            - github: "https://github.com/mrhaydendp"
-            - x: "https://x.com/mrhaydendp"
-            - email: "mailto:mrhaydendp@gmail.com"
-            - link: "https://blog.mrhaydendp.com"
-
 enableEmoji: true
 disableKinds:
-    - taxonomy
-    - term
+  - taxonomy
+  - term
 
-markup:
-    highlight:
-        noClasses: false
-    goldmark:
-        renderer:
-            unsafe: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Hayden Plumley | Lynx"
+  description: "My social links, powered by Hugo and Lynx"
+  keywords: ["Lynx", "Linktree", "About"]
+  author:
+    name: "Hayden Plumley"
+    headline: "Tech enthusiast that enjoys tinkering with electronics, watching horror movies, and perfecting the art of brewing coffee."
+    image: "avatar.webp" # path relative to static directory
+    links:
+      - github: "https://github.com/mrhaydendp"
+      - x:
+         href: "https://x.com/mrhaydendp"
+         text: " "
+      - email: "mailto:mrhaydendp@gmail.com"
+      - link:
+          href: "https://blog.mrhaydendp.com"
+          text: "Blog"
+
+module:
+  hugoVersion:
+    extended: false
+    min: "0.158.0"
+
+outputs:
+  home:
+    - html
