@@ -24,13 +24,9 @@ params:
     image: "avatar.webp" # path relative to static directory
     links:
       - github: "https://github.com/mrhaydendp"
-      - x:
-         href: "https://x.com/mrhaydendp"
-         text: " "
+      - x: "https://x.com/mrhaydendp"
       - email: "mailto:mrhaydendp@gmail.com"
-      - link:
-          href: "https://blog.mrhaydendp.com"
-          text: "Blog"
+      - link: { href: "https://blog.mrhaydendp.com", text: "Blog" }
 
 module:
   hugoVersion:
